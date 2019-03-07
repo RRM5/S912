@@ -219,8 +219,4 @@ source "drivers/siox/Kconfig"
 
 source "drivers/slimbus/Kconfig"
 
-source "drivers/gpu/arm/midgard/Kconfig"
-
-source "drivers/gpu/arm/midgard/platform/Kconfig"
-
 endmenu
