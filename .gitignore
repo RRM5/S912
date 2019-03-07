@@ -132,7 +132,3 @@ all.config
 
 # Kdevelop4
 *.kdev4
-
-debian/debhelper-build-stamp
-debian/files
-debian/mali-midgard-dkms*
