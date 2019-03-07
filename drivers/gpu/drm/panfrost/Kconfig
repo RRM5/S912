@@ -1,0 +1,6 @@
+config DRM_PANFROST
+	tristate "Panfrost (DRM support for ARM Mali t760/t860 GPU)"
+	depends on DRM
+	depends on ARCH_ROCKCHIP
+	help
+	  DRM driver for ARM Mali t760/t860 GPUs.
