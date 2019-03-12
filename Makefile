@@ -859,10 +859,6 @@ KBUILD_CPPFLAGS += $(ARCH_CPPFLAGS) $(KCPPFLAGS)
 KBUILD_AFLAGS   += $(ARCH_AFLAGS)   $(KAFLAGS)
 KBUILD_CFLAGS   += $(ARCH_CFLAGS)   $(KCFLAGS)
 
-# Add Device Specific Optimization
-KBUILD_CFLAGS += -march=armv8-a+crypto -march=armv8-a+crc -mcpu=cortex-a53 -O3
-KBUILD_CPPFLAGS += -march=armv8-a+crypto -march=armv8-a+crc -mcpu=cortex-a53 -O3
-
 # Use --build-id when available.
 LDFLAGS_BUILD_ID := $(call ld-option, --build-id)
 KBUILD_LDFLAGS_MODULE += $(LDFLAGS_BUILD_ID)
